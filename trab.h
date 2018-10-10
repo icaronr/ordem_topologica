@@ -10,7 +10,7 @@ using namespace std;
 // Classe do grafo
 class Grafo
 {
-    int nVertex; // No. of vertices'
+    int nVertex; // No. of vertices
 
     // Pointer to an array containing adjacency listsList
     list<int> *adj;

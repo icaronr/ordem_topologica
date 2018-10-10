@@ -89,7 +89,7 @@ void Grafo::khanSort()
 //Funcao recursiva do dfs para visitar os nos
 void Grafo::visitar(int v, bool visitado[], stack<int> &Pilha)
 {
-    // Mark the current node as visitado.
+    // Mark the current node as visitado
     visitado[v] = true;
 
     // Recur for all the vertices adjacent to this vertex
